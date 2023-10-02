@@ -1,0 +1,70 @@
+// $primary: coral;
+@import "bootstrap/scss/bootstrap";
+
+$bg-primary: red;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+// :root {
+//     --bs-body-bg: dark;
+// }
+
+.container-bg {
+    height: 1000px;
+    margin-top: -200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  img {
+    float: left;
+    height: 50px;
+    width: auto;
+  }
+
+  #small {
+    height: 30px;
+    width: auto;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  #redbg {
+    color: red;
+    z-index: 0;
+  }
+// $bgcolor: coral;
+// body {
+//   background-color: darken($bgcolor, 20);
+// }
